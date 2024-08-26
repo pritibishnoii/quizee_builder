@@ -608,7 +608,8 @@ const CreateQuiz = ({ handleClosePopup }) => {
               <input
                 placeholder="your link is here"
                 type="text"
-                value={`http://localhost:3000/livequiz/${quizData.quizId}`}
+                // value={`http://localhost:3000/livequiz/${quizData.quizId}`}
+                value={`https://quizee-builder.vercel.app/livequiz/livequiz/${quizData.quizId}`}
                 readOnly
                 className={style.link_input}
                 id="quizLinkInput"
