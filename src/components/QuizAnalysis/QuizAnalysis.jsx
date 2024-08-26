@@ -105,7 +105,7 @@ const QuizAnalysis = () => {
   };
 
   const handleShareQuiz = (quizId) => {
-    const quizLink = `http://localhost:3000/livequiz/${quizId}`;
+    const quizLink = `https://quizee-builder.vercel.app/livequiz/${quizId}`;
 
     navigator.clipboard
       .writeText(quizLink)
