@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -16,6 +16,7 @@ const validationSchema = Yup.object({
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [loading, setLoading] = useState(false)
 
   // Formik hook
   const formik = useFormik({
@@ -26,6 +27,7 @@ const Login = () => {
     validationSchema,
     onSubmit: async (values) => {
       try {
+        setLoading(true)
         const response = await axios.post(`${server}api/user/login`, values);
         console.log(response);
 
@@ -41,6 +43,9 @@ const Login = () => {
       } catch (error) {
         toast.error(error.response?.data?.error || "Internal Server Error");
         console.error(error);
+      }
+      finally {
+        setLoading(false)
       }
     },
   });
@@ -88,8 +93,9 @@ const Login = () => {
           <button
             type="submit"
             className={style.login_btn}
+            disabled={loading}
           >
-            Login
+            {loading ? <div className="loader"></div> : "   Login   "}
           </button>
         </div>
       </form>

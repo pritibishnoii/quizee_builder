@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -21,6 +21,7 @@ const validationSchema = Yup.object({
 
 const Signup = () => {
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(false); // Add loading state
 
   // Formik hook
   const formik = useFormik({
@@ -32,16 +33,17 @@ const Signup = () => {
     },
     validationSchema,
     onSubmit: async (values) => {
+      setLoading(true);
       try {
         const response = await axios.post(`${server}api/user/signup`, values);
-        console.log(response);
-
         // Navigate to login with email and password
         navigate("/login", { state: { email: values.email, password: values.password } });
         toast.success("Signup successful!");
       } catch (error) {
         toast.error(error.response?.data?.error || "Internal Server Error");
         console.error("Signup error:", error.response?.data?.error || "Internal Server Error");
+      } finally {
+        setLoading(false);
       }
     },
   });
@@ -61,7 +63,6 @@ const Signup = () => {
             touched={formik.touched.name && formik.errors.name}
             placeholder={formik.touched.name && formik.errors.name ? formik.errors.name : null}
           />
-
         </div>
 
         <div className={style.fieldWrapper}>
@@ -76,7 +77,6 @@ const Signup = () => {
             touched={formik.touched.email && formik.errors.email}
             placeholder={formik.touched.email && formik.errors.email ? formik.errors.email : null}
           />
-
         </div>
 
         <div className={style.fieldWrapper}>
@@ -91,7 +91,6 @@ const Signup = () => {
             touched={formik.touched.password && formik.errors.password}
             placeholder={formik.touched.password && formik.errors.password ? formik.errors.password : null}
           />
-
         </div>
 
         <div className={style.fieldWrapper}>
@@ -108,11 +107,10 @@ const Signup = () => {
               formik.errors.confirmPassword
               : null}
           />
-
         </div>
 
-        <button type="submit" className={style.signup_btn}>
-          Sign Up
+        <button type="submit" className={style.signup_btn} disabled={loading}>
+          {loading ? <div className="loader"></div> : " Sign Up  "}
         </button>
       </form>
     </div>
