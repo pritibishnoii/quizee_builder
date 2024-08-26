@@ -21,7 +21,7 @@
 }
 
 .dashboard_stats_card {
-  width: 250px;
+  width: 270px;
   height: 18vh;
   flex-shrink: 0;
   padding: 12px;
@@ -38,6 +38,7 @@
   font-weight: 600;
   text-align: center;
   line-height: 2rem;
+  margin-top: 1rem;
 
 }
 
@@ -57,6 +58,7 @@
   font-weight: 600;
   text-align: center;
   line-height: 2rem;
+  margin-top: 1rem;
 
 
 }
@@ -79,6 +81,7 @@
   font-weight: 600;
   text-align: center;
   line-height: 2rem;
+  margin-top: 1rem;
 
 }
 
@@ -109,7 +112,7 @@
 }
 
 .dashboard_quiz_card {
-  width: 181px;
+  width: 200px;
   height: 62px;
   border-radius: 5px;
   background: #fff;
@@ -118,7 +121,7 @@
   align-items: center;
   flex-shrink: 0;
   margin: 18px;
-  margin-left: 1rem;
+  gap: 12px;
   padding: 10px 10px;
 }
 
@@ -158,4 +161,13 @@
 .dashboard_quiz_cards_container {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 12px;
+  width: 100%;
+  margin: auto;
+}
+
+.dashboard_trending_quizzes_container {
+
+  width: 70vw;
+  margin: 4rem auto;
 }

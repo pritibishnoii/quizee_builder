@@ -41,7 +41,7 @@ const DashboardPage = () => {
 
       <div className={style.dashboard_sidebar}>
         <h3>QUIZZIE</h3>
-        <div>
+        <div className={style.buttons_container}>
           <button
             onClick={() => setActiveTab(1)}
             className={`${style.button} ${activeTab === 1 && style.active}`}

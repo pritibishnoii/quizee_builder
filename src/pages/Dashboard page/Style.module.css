@@ -9,7 +9,7 @@
   left: 0;
   width: 18vw;
   height: 100%;
-  background: #fff;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -54,7 +54,7 @@
 
 .dashboard_sidebar h3 {
   color: #474444;
-  font-family: Jomhuria;
+  font-family: "Jomhuria", serif;
   font-size: 2.375rem;
   font-style: normal;
   font-weight: 900;
@@ -63,15 +63,15 @@
 
 .button {
   width: 176px;
-  height: 38px;
+  /* height: 38px; */
   color: #474444;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   border: none;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   margin-left: 2rem;
   margin-right: 2rem;
   background: none;
@@ -98,13 +98,21 @@
 
 .logout_btn {
   color: #474444;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 0rem;
   background: none;
   border: none;
+  margin-bottom: 1rem;
+}
+
+.buttons_container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  gap: 8px;
 }

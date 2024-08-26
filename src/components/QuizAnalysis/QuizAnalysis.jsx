@@ -135,8 +135,8 @@ const QuizAnalysis = () => {
                 <th>Quiz Name</th>
                 <th>Created On</th>
                 <th>Impression</th>
-                <th>Icons</th>
-                <th>Question-wise Analysis</th>
+                <th></th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
@@ -201,7 +201,7 @@ const QuizAnalysis = () => {
                         setShowQuestionAnalytics(true);
                       }}
                     >
-                      Question Analytics
+                      Question  Wise Analytics
                     </a>
                   </td>
 
