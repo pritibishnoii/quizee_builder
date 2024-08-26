@@ -66,30 +66,32 @@ const Dashboard = () => {
         <div className={style.dashboard_trending_quizzes_title}>
           Trending Quizs
         </div>
-
         <div className={style.dashboard_quiz_cards_container}>
           {quizzes.map((quiz) =>
-            quiz.impressionofQuiz < 11 ? (
-              <></>
-            ) : (
-              <div key={quiz._id} className={style.dashboard_quiz_card}>
-                <div className={style.dashboard_quiz_card_text}>
-                  {quiz.quizName}
-                </div>
-                <div className={style.dashboard_quiz_card_num}>
-                  {quiz.impressionofQuiz}
-                  <img
-                    className={style.eye_img}
-                    src={eye_logo}
-                    alt="eye-logo"
-                  />
-                </div>
-                <p className={style.dashboard_quiz_stats_text}>
-                  Created on: {formatDate(quiz.date)}
-                </p>
+
+          // quiz.impressionofQuiz < 11 ? (
+          //   <></>
+          // ) :
+          (
+            <div key={quiz._id} className={style.dashboard_quiz_card}>
+              <div className={style.dashboard_quiz_card_text}>
+                {quiz.quizName}
               </div>
-            )
-          )}
+              <div className={style.dashboard_quiz_card_num}>
+                {quiz.impressionofQuiz}
+                <img
+                  className={style.eye_img}
+                  src={eye_logo}
+                  alt="eye-logo"
+                />
+              </div>
+              <p className={style.dashboard_quiz_stats_text}>
+                Created on: {formatDate(quiz.date)}
+              </p>
+            </div>
+          )
+          )
+          }
         </div>
       </div>
     </div>
