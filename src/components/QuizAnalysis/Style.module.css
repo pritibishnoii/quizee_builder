@@ -1,0 +1,425 @@
+.container {
+  width: 100%;
+  height: auto;
+  background: #ededed;
+}
+.question_analytics_container {
+  width: auto;
+  height: auto;
+  background: #ededed;
+}
+.main {
+  width: auto;
+  height: auto;
+  background: #ededed;
+}
+
+.header {
+  color: #5076ff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.quizTable {
+  width: 70vw;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.tableHeader {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.header_table_row {
+  background-color: rgba(80, 118, 255, 1);
+  color: #fff;
+  height: 35px;
+  flex-shrink: 0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.myStyledElement {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.odd {
+  border-radius: 10px;
+  background-color: rgba(179, 196, 255, 1);
+}
+
+/* ================================== */
+.container {
+  width: 845px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.quizName {
+  width: 673px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2px 10px;
+  margin: 2rem 0rem 2rem 4rem;
+}
+
+label {
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button {
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.quiz_type {
+  margin-left: 4rem;
+  display: flex;
+}
+
+.type_button {
+  width: 171px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 1rem;
+}
+
+.selected {
+  border-radius: 10px;
+  background: #60b84b;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.continue_btn {
+  width: 279px;
+  height: 46.144px;
+  flex-shrink: 0;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.continue_btn:hover {
+  border-radius: 10px;
+  background: #60b84b;
+  color: #fff;
+}
+
+.addOption_btn {
+  width: 296px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #474444;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.share_btn {
+  width: 279px;
+  height: 46.144px;
+  flex-shrink: 0;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  margin: 2rem 0rem 0rem 12rem;
+}
+.share_btn:hover {
+  border-radius: 10px;
+  background: #60b84b;
+  color: #fff;
+}
+
+.link_input {
+  width: 675px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ededed;
+  margin: 1rem 0rem 0rem 5rem;
+}
+
+.ellipse {
+  display: flex;
+}
+
+.ellipse_index {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  background: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.cross {
+  width: 0px;
+}
+
+.question_container {
+  width: 845px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.question_input {
+  width: 673px;
+  height: 50px;
+  flex-shrink: 0;
+  padding: 5px 10px;
+}
+
+.timer_container {
+  margin-right: 2rem;
+  float: right;
+  margin-top: -13rem;
+}
+
+.timerButton {
+  width: 95px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+}
+
+.create_btn {
+  float: right;
+}
+
+.quiz_published {
+  width: 845px;
+  height: 481px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+h3 {
+  color: #474444;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 502px;
+}
+
+.selectedButton {
+  background-color: #d60000;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.optionType_label {
+  margin-top: -2.2rem;
+}
+
+.cross {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  margin: 0rem 1rem 2rem -1rem;
+  position: relative;
+  background: none;
+}
+
+.plus {
+  width: 42px;
+  height: auto;
+  flex-shrink: 0;
+  /* background: #fff; */
+  fill: none;
+  box-shadow: none;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+.text_image {
+  display: flex;
+  margin: -2.5rem 0rem 0rem 2rem;
+  width: 200px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.options_container {
+  display: flex;
+}
+
+.delButtons {
+  border: 2px solid black;
+  background: red;
+}
+
+.delete_btn {
+  position: fixed;
+}
+
+.delete_popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.delete_popup h3 {
+  margin-top: 0;
+  color: #474444;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.confirm_btn {
+  width: 17.4375rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ff4b4b;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  float: left;
+  border: none;
+}
+
+.cancel_btn {
+  width: 17.4375rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 2rem;
+  border: none;
+  color: #474444;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn {
+  border: none;
+  background: none;
+}
+
+.edit_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup_container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

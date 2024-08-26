@@ -1,0 +1,353 @@
+.container {
+  width: 845px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  margin: 0rem 0rem 0rem 1rem;
+  padding: 5px 5px;
+}
+
+.quizName {
+  width: 673px;
+  height: 81px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2px 20px;
+  margin: 4rem 0rem 2rem 4rem;
+}
+
+.container label {
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button {
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.quiz_type {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  display: flex;
+}
+
+.type_button {
+  width: 171px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 3rem;
+  border: none;
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.selected {
+  background: #60b84b;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.continue_btn {
+  width: 279px;
+  height: 46.144px;
+  flex-shrink: 0;
+  float: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: #60b84b;
+  color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.continue_btn:hover {
+  background: #5bd93c;
+}
+
+.addOption_btn {
+  width: 296px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  color: #474444;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.cross_btn {
+  background: none;
+  border: none;
+}
+
+.share_btn {
+  width: 279px;
+  height: 46.144px;
+  flex-shrink: 0;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background: #60b84b;
+  color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  margin-top: 2rem;
+  border: none;
+}
+.share_btn:hover {
+  background: #5bd93c;
+}
+
+.link_input {
+  width: 675px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ededed;
+  margin: 1rem 0rem 0rem 5rem;
+}
+
+.ellipse_container {
+  display: flex;
+}
+
+.ellipse_index {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  background: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 50%;
+  margin-left: 1rem;
+  border: none;
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.question_container {
+  width: 845px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.question_input {
+  width: 673px;
+  height: 50px;
+  flex-shrink: 0;
+  padding: 5px 10px;
+}
+
+.timer_container {
+  margin-right: 2rem;
+  float: right;
+  margin-top: -13rem;
+}
+
+.timerButton {
+  width: 95px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+  border: none;
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.create_btn {
+  float: right;
+}
+
+.quiz_published {
+  width: 845px;
+  height: 481px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz_published h3 {
+  color: #474444;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2.4375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.selectedButton {
+  background-color: #d60000;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.optionType_label {
+  margin-top: -2.2rem;
+}
+
+.cross_btn_2 {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  position: relative;
+  background: none;
+  border: none;
+  float: right;
+  margin-top: 0rem;
+  margin-left: 90%;
+}
+
+.plus {
+  width: 42px;
+  height: auto;
+  flex-shrink: 0;
+  background: #fff;
+  fill: none;
+  box-shadow: none;
+  margin: 1rem 0rem 0rem 1rem;
+  border: none;
+}
+
+.text_image {
+  display: flex;
+  margin: 0rem 0rem 0rem 2rem;
+  flex-shrink: 0;
+}
+
+.options_container {
+  display: flex;
+}
+
+.delButtons {
+  border: 2px solid black;
+  background: red;
+}
+
+.delete_btn {
+  position: fixed;
+  background: #fff;
+  border: none;
+  float: right;
+  margin-left: 1rem;
+}
+
+.cancle_btn {
+  width: 279px;
+  height: 46.144px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+  border: none;
+  color: #474444;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 1rem;
+}
+
+.question_container {
+  margin-top: 1rem;
+}
+
+.max_ques {
+  float: right;
+  color: #9f9f9f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -3rem;
+}
+
+.text_image_qa{
+  margin-top: -3.5rem;
+}
+.txt_img {
+  width: 10.53531rem;
+  height: 1.525rem;
+  flex-shrink: 0;
+  padding: 5px 5px;
+}

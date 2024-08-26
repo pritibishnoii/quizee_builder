@@ -1,0 +1,77 @@
+.container {
+  width: 79vw;
+  height: auto;
+  background: #ededed;
+}
+
+h2 {
+  color: #5076ff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 2rem;
+}
+
+.red {
+  float: right;
+  color: #ff5d01;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 0rem;
+  margin-top: -5rem;
+}
+
+.question_info {
+  width: auto;
+  height: 2.25rem;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+
+.cards_container {
+  display: flex;
+}
+
+.value {
+  color: #474444;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0rem;
+}
+
+.cards {
+  width: 200px;
+  height: 89px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.text {
+  color: #474444;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -1rem;
+}
+
+ul {
+  list-style-type: none;
+}

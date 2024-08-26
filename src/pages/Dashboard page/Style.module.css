@@ -1,0 +1,110 @@
+.main {
+  display: flex;
+  background: #ededed;
+}
+
+.dashboard_sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18vw;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+.dashboard_sidebar h3 {
+  color: #474444;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+}
+
+.dashboard_content {
+  margin-left: 16.8vw;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.createquiz_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.create_quiz {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard_sidebar h3 {
+  color: #474444;
+  font-family: Jomhuria;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.button {
+  width: 176px;
+  height: 38px;
+  color: #474444;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background: none;
+}
+
+.active {
+  width: 176px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+}
+
+.line {
+  width: 140px;
+  height: 4px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  background: #000;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+
+.logout_btn {
+  color: #474444;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 0rem;
+  background: none;
+  border: none;
+}
