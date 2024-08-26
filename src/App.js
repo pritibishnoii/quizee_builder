@@ -12,7 +12,8 @@ export const server = "https://quizee-server.vercel.app/";
 // export const server = "http://localhost:8000/";
 
 const handleShareQuiz = (quizId) => {
-	const quizLink = `http://localhost:3000/livequiz/${quizId}`;
+	// const quizLink = `http://localhost:3000/livequiz/${quizId}`;
+	const quizLink = `https://quizee-builder.vercel.app/livequiz/${quizId}`;
 	navigator.clipboard
 		.writeText(quizLink)
 		.then(() => {
