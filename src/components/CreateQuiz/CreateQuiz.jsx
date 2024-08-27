@@ -259,35 +259,39 @@ const CreateQuiz = ({ handleClosePopup }) => {
           />
           <br />
 
-          <label className={style.quiz_type}>
-            Quiz Type
-            <div>
-              <button
-                onClick={() => handleQuizTypeChange("qa")}
-                className={`${style.type_button} ${quizData.quizType === "qa" ? style.selected : ""
-                  }`}
-              >
-                Q&A
+          <div className={style.second_container}>
+            <label className={style.quiz_type}>
+              Quiz Type
+              <div>
+                <button
+                  onClick={() => handleQuizTypeChange("qa")}
+                  className={`${style.type_button} ${quizData.quizType === "qa" ? style.selected : ""
+                    }`}
+                >
+                  Q&A
+                </button>
+                <button
+                  onClick={() => handleQuizTypeChange("poll")}
+                  className={`${style.type_button} ${quizData.quizType === "poll" ? style.selected : ""
+                    }`}
+                >
+                  Poll Type
+                </button>
+              </div>
+            </label>
+
+            <br />
+
+            <div className={style.action_btns}>
+              <button onClick={handleClosePopup} className={`${style.cancel_btn} ${style.button_style}`}>
+                Cancel
               </button>
-              <button
-                onClick={() => handleQuizTypeChange("poll")}
-                className={`${style.type_button} ${quizData.quizType === "poll" ? style.selected : ""
-                  }`}
-              >
-                Poll Type
+
+              <button onClick={handleContinue} className={`${style.continue_btn} ${style.button_style}`}>
+                Continue
               </button>
             </div>
-          </label>
-
-          <br />
-
-          <button onClick={handleClosePopup} className={style.cancle_btn}>
-            Cancel
-          </button>
-
-          <button onClick={handleContinue} className={style.continue_btn}>
-            Continue
-          </button>
+          </div>
         </div>
       )}
 
@@ -332,11 +336,12 @@ const CreateQuiz = ({ handleClosePopup }) => {
                 className={style.question_input}
               />
               <br />
-              <label>
+              <label className={style.option_type}>
                 Option Type
                 <div className={style.optionType_label}>
                   <label>
                     <input
+
                       type="radio"
                       value="text"
                       checked={
@@ -388,7 +393,7 @@ const CreateQuiz = ({ handleClosePopup }) => {
                 ),
               ].map((_, optionIndex) => (
                 <div className={style.options_container}>
-                  <div key={optionIndex}>
+                  <div key={optionIndex} >
                     {quizData.quizType === "qa" && (
                       <input
                         type="radio"
@@ -474,6 +479,7 @@ const CreateQuiz = ({ handleClosePopup }) => {
                       />
                     ) : (
                       <input
+
                         type="text"
                         placeholder="Image URL"
                         value={
@@ -588,13 +594,15 @@ const CreateQuiz = ({ handleClosePopup }) => {
               </div>
             </div>
 
-            <button onClick={handleClosePopup} className={style.cancle_btn}>
-              Cancel
-            </button>
+            <div className={style.action_btns}>
+              <button onClick={handleClosePopup} className={`${style.cancle_btn} ${style.button_style}`}>
+                Cancel
+              </button>
 
-            <button onClick={handleSubmit} className={style.continue_btn}>
-              Create Quiz
-            </button>
+              <button onClick={handleSubmit} className={`${style.continue_btn} ${style.button_style}`}>
+                Create Quiz
+              </button>
+            </div>
           </>
         )}
 

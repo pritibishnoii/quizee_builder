@@ -17,8 +17,8 @@
 }
 
 .header {
-  /* color: #5076FF; */
-  font-family: Poppins;
+  color: #5076FF;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -47,7 +47,7 @@
   height: 35px;
   flex-shrink: 0;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -106,7 +106,7 @@ input {
   background: #fff;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   color: #9f9f9f;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -134,7 +134,7 @@ input {
 label {
   color: #9f9f9f;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -147,7 +147,7 @@ label {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   color: #9f9f9f;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -207,7 +207,7 @@ label {
   background: #fff;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   color: #474444;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
@@ -305,7 +305,7 @@ label {
 h3 {
   color: #474444;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 39px;
   font-style: normal;
   font-weight: 600;
@@ -317,7 +317,7 @@ h3 {
   background-color: #d60000;
   color: #fff;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -385,7 +385,7 @@ h3 {
   margin-top: 0;
   color: #474444;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 39px;
   font-style: normal;
   font-weight: 600;
@@ -399,7 +399,7 @@ h3 {
   border-radius: 10px;
   background: #ff4b4b;
   color: #fff;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -418,7 +418,7 @@ h3 {
   margin-left: 2rem;
   border: none;
   color: #474444;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;

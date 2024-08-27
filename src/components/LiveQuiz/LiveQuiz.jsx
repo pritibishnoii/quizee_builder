@@ -145,11 +145,10 @@ function LiveQuiz() {
       <div key={optionIndex} onClick={() => handleOptionSelect(optionIndex)}>
         {optionType === "text" && (
           <div
-            className={`${style.text_option} ${
-              selectedOptions[currentQuestionIndex] === optionIndex
-                ? style.selected
-                : ""
-            }`}
+            className={`${style.text_option} ${selectedOptions[currentQuestionIndex] === optionIndex
+              ? style.selected
+              : ""
+              }`}
           >
             {currentOption.option}
           </div>
@@ -157,22 +156,20 @@ function LiveQuiz() {
 
         {optionType === "image" && (
           <img
-            className={`${style.text_option} ${
-              selectedOptions[currentQuestionIndex] === optionIndex
-                ? style.selected
-                : ""
-            }`}
+            className={`${style.text_option} ${selectedOptions[currentQuestionIndex] === optionIndex
+              ? style.selected
+              : ""
+              }`}
             src={currentOption.option}
             alt="image_option"
           />
         )}
         {optionType === "both" && (
           <div
-            className={`${style.both_option} ${
-              selectedOptions[currentQuestionIndex] === optionIndex
-                ? style.selected
-                : ""
-            }`}
+            className={`${style.both_option} ${selectedOptions[currentQuestionIndex] === optionIndex
+              ? style.selected
+              : ""
+              }`}
             style={{ overflow: "hidden" }}
           >
             <div className={style.both_option_text}>
@@ -193,7 +190,7 @@ function LiveQuiz() {
 
   const renderQuizContent = () => {
     if (!quizData) {
-      return <div>Loading...</div>;
+      return <div className="loader" style={{ marginTop: "3rem" }}></div>;
     }
 
     if (quizCompleted && quizData.quizType === "qa") {
@@ -229,9 +226,8 @@ function LiveQuiz() {
     return (
       <div className={style.container}>
         <div className={style.main}>
-          <div className={style.question_index}>{`0${
-            currentQuestionIndex + 1
-          }/${quizData.numQuestions}`}</div>
+          <div className={style.question_index}>{`0${currentQuestionIndex + 1
+            }/${quizData.numQuestions}`}</div>
           {timer !== null && quizData.quizType === "qa" && (
             <div className={style.timer}>{timer ? timer + "s" : " "}</div>
           )}

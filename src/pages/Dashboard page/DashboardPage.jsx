@@ -40,7 +40,7 @@ const DashboardPage = () => {
     <div className={style.main}>
 
       <div className={style.dashboard_sidebar}>
-        <h3>QUIZZIE</h3>
+        <h3 className={style.quizee_heading}>QUIZZIE</h3>
         <div className={style.buttons_container}>
           <button
             onClick={() => setActiveTab(1)}
