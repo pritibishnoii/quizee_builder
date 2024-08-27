@@ -32,11 +32,12 @@
 .question_index,
 .timer,
 .question_text {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 2rem;
 }
 
 .index_timer_div {

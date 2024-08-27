@@ -226,12 +226,14 @@ function LiveQuiz() {
     return (
       <div className={style.container}>
         <div className={style.main}>
-          <div className={style.question_index}>{`0${currentQuestionIndex + 1
-            }/${quizData.numQuestions}`}
+          <div className={style.index_timer_div}>
+            <div className={style.question_index}>{`0${currentQuestionIndex + 1
+              }/${quizData.numQuestions}`}
+            </div>
+            {timer !== null && quizData.quizType === "qa" && (
+              <div className={style.timer}>{timer ? timer + "s" : " "}</div>
+            )}
           </div>
-          {timer !== null && quizData.quizType === "qa" && (
-            <div className={style.timer}>{timer ? timer + "s" : " "}</div>
-          )}
 
           <div className={style.question_text}>{currentQuestion.question}</div>
           <div className={style.options_container}>
