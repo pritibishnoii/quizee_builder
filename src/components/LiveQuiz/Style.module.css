@@ -200,7 +200,6 @@
   .options_container {
     grid-template-columns: 1fr;
     justify-content: center;
-    float: left;
     margin-top: -0.5rem;
   }
 
