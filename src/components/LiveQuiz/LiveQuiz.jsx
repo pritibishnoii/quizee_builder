@@ -227,7 +227,8 @@ function LiveQuiz() {
       <div className={style.container}>
         <div className={style.main}>
           <div className={style.question_index}>{`0${currentQuestionIndex + 1
-            }/${quizData.numQuestions}`}</div>
+            }/${quizData.numQuestions}`}
+          </div>
           {timer !== null && quizData.quizType === "qa" && (
             <div className={style.timer}>{timer ? timer + "s" : " "}</div>
           )}
