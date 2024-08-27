@@ -179,6 +179,7 @@
     height: auto;
     text-align: center;
     margin: 0rem 0rem;
+    box-shadow: none;
   }
 
   .question_index {
