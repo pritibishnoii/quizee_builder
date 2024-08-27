@@ -193,7 +193,7 @@
     margin-top: 4rem;
     margin-bottom: 2rem;
     float: left;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-right: 0rem;
     margin-left: 0rem;
   }
@@ -206,7 +206,7 @@
 
   .text_option {
     width: 100%;
-    width: 6rem;
+    width: 12rem;
     height: 3rem;
     flex-shrink: 0;
     float: left;
