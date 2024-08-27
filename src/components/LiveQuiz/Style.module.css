@@ -170,6 +170,10 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    background-color: #FFFFFF;
+  }
+
   .main {
     width: 100%;
     height: auto;
@@ -227,8 +231,6 @@
     border-radius: 0.625rem;
     margin: 2rem 0rem 30% 1rem;
     font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+
   }
 }
