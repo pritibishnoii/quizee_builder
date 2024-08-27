@@ -205,8 +205,8 @@
 
   .text_option {
     width: 100%;
-    width: 16.06363rem;
-    height: 3.54375rem;
+    width: 6rem;
+    height: 3rem;
     flex-shrink: 0;
     float: left;
   }
@@ -220,8 +220,8 @@
   }
 
   .submit_btn {
-    width: 11.75rem;
-    height: 2.05625rem;
+    width: 12rem;
+    height: 3rem;
     flex-shrink: 0;
     border-radius: 0.625rem;
     margin: 2rem 0rem 30% 1rem;
