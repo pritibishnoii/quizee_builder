@@ -47,7 +47,7 @@ const QuestionAnalytics = ({ quizId }) => {
                   {questionInfo.options.map((opt, optIndex) => (
                     <div className={style.cards} key={optIndex}>
                       <h4 className={style.value}>{opt.impressionofOption}</h4>
-                      <p className={style.text}>{opt}{optIndex + 1}</p>
+                      <p className={style.text}>option {optIndex + 1}</p>
                     </div>
                   ))}
                 </div>
