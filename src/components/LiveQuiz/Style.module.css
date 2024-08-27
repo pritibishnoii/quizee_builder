@@ -63,11 +63,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   /* gap: 2rem; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: crimson;
   /* margin-top: 8rem;
   margin-left: 1rem; */
-  width: 60%;
+  width: 50%;
 
 }
 
