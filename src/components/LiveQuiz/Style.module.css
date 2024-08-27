@@ -66,11 +66,13 @@
   justify-content: space-between;
   margin-top: 8rem;
   margin-left: 1rem;
+  width: 80%;
+
 }
 
 .text_option {
-  width: 18rem;
-  height: 7rem;
+  width: 12rem;
+  height: 6rem;
   flex-shrink: 0;
   border-radius: 0.625rem;
   background: #f0f0f0;
@@ -80,8 +82,8 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  /* margin-left: 0.5rem;
+  margin-right: 0.5rem; */
   padding: 10px 10px;
   display: flex;
   justify-content: center;
