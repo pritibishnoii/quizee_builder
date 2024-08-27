@@ -62,10 +62,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 2rem;
+  /* gap: 2rem; */
   justify-content: space-between;
-  margin-top: 8rem;
-  margin-left: 1rem;
+  background-color: crimson;
+  /* margin-top: 8rem;
+  margin-left: 1rem; */
   width: 60%;
 
 }
