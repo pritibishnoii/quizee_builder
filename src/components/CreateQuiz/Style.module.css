@@ -390,3 +390,7 @@ input {
   flex-shrink: 0;
   padding: 5px 5px;
 }
+
+input {
+  padding: 14px;
+}
