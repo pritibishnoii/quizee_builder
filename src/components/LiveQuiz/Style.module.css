@@ -9,6 +9,12 @@
 
 }
 
+.poll_container {
+  height: 300px;
+  padding: 5rem;
+  width: 60%;
+}
+
 .main {
   width: 75%;
   height: auto;
@@ -174,6 +180,11 @@
 @media (max-width: 768px) {
   .container {
     background-color: #FFFFFF;
+  }
+
+  .poll_msg {
+    font-size: 1.5rem;
+    margin-top: 5rem;
   }
 
   .main {
