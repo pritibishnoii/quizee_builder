@@ -9,6 +9,12 @@
 
 }
 
+.poll_container {
+  height: 300px;
+  padding: 5rem;
+  width: 60%;
+}
+
 .main {
   width: 75%;
   height: auto;

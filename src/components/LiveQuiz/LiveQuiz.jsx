@@ -211,8 +211,8 @@ function LiveQuiz() {
     }
     if (quizCompleted && quizData.quizType === "poll") {
       return (
-        <div className={` ${style.poll_container}`}>
-          <div className={style.main}>
+        <div className={style.container}>
+          <div className={`${style.main}  ${style.poll_container}`}>
             <p className={style.poll_msg}>
               Thank you for participating in the Poll
             </p>
